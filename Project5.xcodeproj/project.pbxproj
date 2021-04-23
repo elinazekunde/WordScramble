@@ -58,16 +58,40 @@
 		E62EA55B2632A4C4001021AE /* Project5 */ = {
 			isa = PBXGroup;
 			children = (
-				E62EA55C2632A4C4001021AE /* AppDelegate.swift */,
-				E62EA55E2632A4C4001021AE /* SceneDelegate.swift */,
-				E62EA5602632A4C4001021AE /* ViewController.swift */,
-				E62EA5622632A4C4001021AE /* Main.storyboard */,
+				E62EA57426331A78001021AE /* AppDelegate */,
+				E62EA57626331A90001021AE /* Controllers */,
+				E62EA57526331A87001021AE /* Views */,
 				E62EA5652632A4CC001021AE /* Assets.xcassets */,
-				E62EA5672632A4CC001021AE /* LaunchScreen.storyboard */,
 				E62EA56A2632A4CC001021AE /* Info.plist */,
 				E62EA5712632A591001021AE /* start.txt */,
 			);
 			path = Project5;
+			sourceTree = "<group>";
+		};
+		E62EA57426331A78001021AE /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				E62EA55C2632A4C4001021AE /* AppDelegate.swift */,
+				E62EA55E2632A4C4001021AE /* SceneDelegate.swift */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		E62EA57526331A87001021AE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E62EA5622632A4C4001021AE /* Main.storyboard */,
+				E62EA5672632A4CC001021AE /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		E62EA57626331A90001021AE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E62EA5602632A4C4001021AE /* ViewController.swift */,
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
